@@ -3,9 +3,8 @@
  * @Date: 15, 06, 2022
  * @Description: Given a non-negative integer, return the nearest power of 2 that is no smaller than it. Requiring not
  *      using iterations.
- * @Note:   Bit operation.
- *          ======
- *          Set all lower digits to be 1, and return the carry 1.
+ * @Note:   Bit operation:
+ *          - Set all lower digits to be 1, and return the carry 1.
  */
 public class Code03_Near2Power {
 

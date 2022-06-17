@@ -7,8 +7,8 @@ import java.util.Queue;
  * @Date: 15, 06, 2022
  * @Description: Given a path of a directory, count all the files in it. Note that hidden files also count, while
  *      directories do not count.
- * @Note:   1. BFS/DFS
- *          2. Only put directory into queue/stack.
+ * @Note:   BFS/DFS:
+ *          - Only put directory into queue/stack.
  */
 public class Code02_CountFile {
 

@@ -3,9 +3,9 @@
  * @Date: 15, 06, 2022
  * @Description: Given a sorted integer array representing points on a coordinate, and a positive integer representing
  *      the length of a cord, return the maximum number of points the cord can cover.
- * @Note:   Ver1. O(N) - sliding window.
- *          Ver2. O(N*logN) - since the array is sorted, for each end index, use binary search for the appropriate left
- *                index.
+ * @Note:   Ver1. O(N) - Sliding Window.
+ *          Ver2. O(N*logN) - Binary Search:
+ *                - Since the array is sorted, for each end index, search for the appropriate left index.
  */
 public class Code01_CordCoverMaxPoint {
 
