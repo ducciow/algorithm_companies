@@ -10,10 +10,12 @@ import java.util.HashMap;
  *                - For each element, collect the afterwards answer of its two sign options.
  *                - Use a outer-inner hash map for lookup.
  *          Ver2. DP with optimization:
- *                - Let set P = {+ signed elem}, N = {- signed elem}
- *                - Then sum_P - sum_N = target, and sum_P + sum_N = all_Sum, which gives sum_P = (target + all_sum) / 2.
- *                - The dp progress turns to be a backpacking problem.
- *                - Space compression for the dp table can be utilized.
+ *                1. Let set P = {+ signed elem}, N = {- signed elem}
+ *                2. Then sum_P - sum_N = target, and sum_P + sum_N = all_Sum,
+ *                   which gives sum_P = (target + all_sum) / 2.
+ *                3. The dp progress turns to be a backpacking problem.
+ *                4. Space compression for the dp table can be utilized.
+ *                5. Extra optimization tricks can apply at the very fist stage to filer unpromising cases.
  *
  */
 public class Code06_TargetSum {
