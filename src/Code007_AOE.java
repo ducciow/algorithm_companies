@@ -10,7 +10,7 @@
  *             affects rightmost.
  *          2. Every time updating the hp of monsters affected is an operation to a segment, so a segment tree is used.
  */
-public class Code07_AOE {
+public class Code007_AOE {
 
     public static int min(int[] arr, int[] hp, int k) {
         int N = arr.length;

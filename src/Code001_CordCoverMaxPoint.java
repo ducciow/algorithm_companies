@@ -7,7 +7,7 @@
  *          Ver2. O(N*logN) - Binary Search:
  *                - Since the array is sorted, for each end index, search for the appropriate left index.
  */
-public class Code01_CordCoverMaxPoint {
+public class Code001_CordCoverMaxPoint {
 
     public static int maxPoint1(int[] arr, int k) {
         int ans = 0;

@@ -7,7 +7,7 @@
  *          - Latter 'G'/'B' does not need to proceed the former 'G'/'B' after swaps. So use a pointer indicate the
  *            boundary of the former part already meeting the requirement.
  */
-public class Code04_MinSwapOfTwoLetters {
+public class Code004_MinSwapOfTwoLetters {
 
     public static int minSwap(String s) {
         if (s == null || s.length() < 3) {

@@ -18,7 +18,7 @@ import java.util.HashMap;
  *                5. Extra optimization tricks can apply at the very fist stage to filer unpromising cases.
  *
  */
-public class Code06_TargetSum {
+public class Code006_TargetSum {
 
     // space O(N*2sum)
     public static int findTargetSumWays1(int[] nums, int target) {

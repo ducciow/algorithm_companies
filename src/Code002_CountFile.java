@@ -10,7 +10,7 @@ import java.util.Queue;
  * @Note:   BFS/DFS:
  *          - Only put directory into queue/stack.
  */
-public class Code02_CountFile {
+public class Code002_CountFile {
 
     public static int countFile(String path) {
         File root = new File(path);

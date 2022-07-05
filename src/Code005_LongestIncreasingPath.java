@@ -8,7 +8,7 @@
  *          - The main function calls process function for each starting position, and returns the max one. The process
  *            func tries all four directions at current position, and returns the longest length.
  */
-public class Code05_LongestIncreasingPath {
+public class Code005_LongestIncreasingPath {
 
     public static int longestIncPath(int[][] m) {
         if (m == null || m.length == 0) {

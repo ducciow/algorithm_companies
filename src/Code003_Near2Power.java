@@ -6,7 +6,7 @@
  * @Note:   Bit operation:
  *          - Set all lower digits to be 1, and return the carry 1.
  */
-public class Code03_Near2Power {
+public class Code003_Near2Power {
 
     public static int tableSizeFor(int n) {
         if (n == 0) {
